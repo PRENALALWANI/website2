@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - lovely cloths </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo/weblogo2.png"  width="130px" height="90px">
+            </div>
+        
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Account</a></li>
+               
+            </ul>
+        </nav>
+        <p> <i class="fa fa-shopping-cart" style="font-size:36px"></i></p>
+        <img src="logo/menulogo.png" class="menu-icon" onclick="menutoggle()">
+        
+    </div>
+    
+    </div>
+    <!---------------single product details-------------->
+             <div class="small-container single-product">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="logo/top1.jpeg" width="100%" id="product-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Home / top</p>
+                        <h1>white top by H&M</h1>
+                        <h4>rs.799</h4>
+                        <select>
+                            <option>Xs</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <input type="number" value="1">
+                        <a href="" class="btn">Add to Cart</a>
+                        <h3>Product Details <i class="fa fa-indent"></i> </h3>
+                        <br>
+                        <p>Elevate your style effortlessly with the latest H&M top. Crafted with a perfect blend of comfort and trend-setting design, this top seamlessly transitions from casual outings to chic gatherings. Embrace fashion-forward looks with H&M's commitment to quality and contemporary style.</p>
+
+                    </div>
+                </div>
+             </div>
+             <!---------title----------->
+                    <div class="small-container">
+                        <div class="row row-2">
+                           <h2>Related Products</h2>
+                           <p>View more</p>
+                        </div>
+                    </div>
+
+             <!-------products------>
+              
+  <!------       <div class="small-contrainer">
+   <!------      <div class="row row-2">
+        <!------   <h2>All Products</h2>
+            <select>
+                <option>Default shorting </option>
+                <option>Short by price </option>
+                <option>Short by popularity </option>
+                <option>Short by rating </option>
+                <option>Short by sale </option>
+            </select>
+        </div>--->
+            <div class="row">
+                <div class="col-4">
+                    <img src="logo/top3.jpeg">
+                    <h4>crop top</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>rs.799</p>
+                </div>
+                <div class="col-4">
+                    <img src="logo/top1.jpeg">
+                    <h4>white top</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>rs.450</p>
+                
+                </div>
+                <div class="col-4">
+                    <img src="logo/shoes2.jpg">
+                    <h4>nike shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>rs.4999</p>
+           </div>
+           
+        </div>
+        
+           
+        </div>
+        
+    </div>
+     
+       <!-------footer--------->
+         <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-log">
+                            <img src="logo/as.jpg">
+                            <img src="logo/gp.jpeg">
+                        </div>
+                    </div>
+                
+                    <div class="footer-col-2">
+                        <img src="logo/weblogo2.png">
+                        <p>Our Purpose Is To Sustainably make the pleasure and
+                           Benefits of Sports Accessible to Many.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3> 
+                         <ul>
+                            <li>Coupons</li>
+                            <li>Blog post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                         </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                         <ul>
+                            <li>Twitter</li>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                         </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">copyright 2020-Easy Tutorials </p>
+            </div>
+         </div>
+          <!----js for toggle menu-------->
+          <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+              if( MenuItems.style.maxHeight =="0px"){
+                MenuItems.style.maxHeight = "200px";
+              }
+            
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+          </script>
+</body>
+</html>  
